@@ -30,7 +30,11 @@
         
         <center class="second">
             <div class="second_border">
-                <a>Вимовте кодове слово "Фейхоа" за номером для сюрпризу.</a><br><br>
+                <script type="text/javascript>
+                code = ['Сосибака', 'Фейхоа', 'Тигруль', 'Жирафля']
+                document.getElementById('code').innerHTML = code[randomInteger(0, 3)]
+                </script>
+                <a>Вимовте кодове слово <a id="code"></a> за номером для сюрпризу.</a><br><br>
                 <bold id="num">0000-0000-0000</bold>
             </div>
         </center>
